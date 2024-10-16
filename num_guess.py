@@ -3,7 +3,7 @@ def guess():
     attempts = 0
     correct = False
     while correct == False:
-        guess = int(input("Enter your guess:"))
+        guess = int(input("Enter your guess:/n"))
         attempts += 1
         if guess > target:
             print("Too high - try again:")
